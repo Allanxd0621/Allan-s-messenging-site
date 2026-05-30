@@ -1,0 +1,83 @@
+.signupPage{
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    display: block;
+    justify-self: center;
+    margin-bottom: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+input{
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+    width: 100%;
+}
+
+
+
+label{
+    color: white;
+}
+
+.signupPanel{
+   
+    padding: 20px;
+    background: linear-gradient(to top, rgb(99, 99, 255) , rgb(138, 162, 220));
+    border-radius: 12px;
+    box-shadow: 12px 8px 12px;
+
+}
+
+button{
+    display: block;
+    margin-top: 3rem;
+    justify-self: center;
+    border-radius: 8px;
+    border: none;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(to left, rgb(211, 211, 251), rgb(187, 220, 255));
+    width: 90%;
+    height: 30px;
+    transition:transform 0.2s ease , color 0.2s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    
+color: white;
+transform: scale(1.1);
+}
+
+button:focus{
+    color: white;
+transform: scale(1.1);
+}
+
+ p{
+    color: antiquewhite;
+    justify-self: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#toLogin{
+    justify-self: center;
+    display: flex;
+    font-size: smaller;
+    color: antiquewhite;
+    
+    
+}
+
+body{
+    margin: 0;
+   
+}

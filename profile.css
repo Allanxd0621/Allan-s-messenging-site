@@ -1,0 +1,59 @@
+
+
+        .profilePanel{
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+             background: linear-gradient(to top, rgb(99, 99, 255) , rgb(138, 162, 220));
+            height: 100dvh;
+            width: 80%;
+            visibility: hidden;
+            transition: transform 0.3s ease;
+            transform: translateX(-100%);
+            
+
+
+        }
+
+        .profilePanelVisible{
+            visibility: visible;
+            transform: translateX(0px);
+           
+        }
+
+
+        #backBtn{
+            display: flex;
+            justify-self: end;
+            background:none;
+            font-size: large;
+            color: aliceblue;
+            border: none;
+        }
+
+        .profilePicture{
+            display: flex;
+            justify-self: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .profilePic{
+            justify-self: center;
+            border: aqua solid 5px;
+            height: 6rem;
+            width: 6rem;
+            border-radius: 50%;
+            transition: transform 0.3s ease;
+        }
+
+        .profilePic:hover{
+            transform: scale(1.1);
+        }
+
+        h3{
+            color: aliceblue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-self: center;
+        }
