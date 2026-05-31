@@ -3,31 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Allan's Chat - Login</title>
-    <link rel="stylesheet" href="login.css">
+    <title>Message - Allan's Chat</title>
+    <link rel="stylesheet" href="loading.css">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="message.css">
+    <link rel="stylesheet" href="chatPanel.css">
 </head>
 <body>
-    <div class="loginPage">
-    <div class="loginPanel">
-        <h2>Login</h2>
-        <label for="username">Username</label>
-        <br>
-        <input type="email" name="username" placeholder="Enter Gmail.." id="username">
-        <br>
-        <label for="password">Password</label>
-        <br>
-        <input type="password" name="password" id="password" placeholder="Enter password">
-        <br>
-        <button id="loginBtn">LOGIN</button>
-        
+    
+    <!--
+    <div class="loadingPage">
+        <h1>Pag Huwat...</h1>
+    </div>
+    -->
+
+    <div class="profilePanel">
+        <button id="backBtn">←</button>
 
         <br>
-      
-        <p>No account?</p>
+       
+        <div class="profilePicture">
+        <img src="profile.jpg" alt="" class="profilePic">
+        </div>
         
-        <a href="register.html" id="toSignup">Create Account</a>
+       <h3>Allandino Manalo</h3>
+        
+        
+
+
+
     </div>
+
+<div class="contactPanel">
+
+<header>
+    
+        <button id="profileBtn"><img src="profile.jpg" alt=""></button>
+    
+    <input type="text" placeholder="Search Connections" id="search">
+    <button id="settingsBtn" class="settings">☰</button>
+</header>
+
+
+
+
+<div class="contact" id="contact0">
+  <img src="profile.jpg" alt="" class="contactImg">
+    <div class="content">
+        <h6 class="username">Allan</h6>
+        <div class="msg">
+           <p class="message">
+             Message: Hello
+           </p>
+           <p>|</p>
+           <p class="time">
+             4h
+           </p>
+        </div>
     </div>
-   <script src="login.js"></script>
+</div>
+
+<div class="contact" id="contact0">
+  <img src="profile1.jpg" alt="" class="contactImg">
+    <div class="content">
+        <h6 class="username">Mary</h6>
+        <div class="msg">
+           <p class="message">
+             Message: Heyyooo
+           </p>
+           <p>|</p>
+           <p class="time">
+             5h
+           </p>
+        </div>
+    </div>
+</div>
+
+<div class="contact" id="contact0">
+  <img src="profile2.jpg" alt="" class="contactImg">
+    <div class="content">
+        <h6 class="username">Jaz</h6>
+        <div class="msg">
+           <p class="message">
+             Message: Heyyooo
+           </p>
+           <p>|</p>
+           <p class="time">
+             5h
+           </p>
+        </div>
+    </div>
+</div>
+
+<div class="contact" id="contact0">
+  <img src="profile3.jpg" alt="" class="contactImg">
+    <div class="content">
+        <h6 class="username">Antonette</h6>
+        <div class="msg">
+           <p class="message">
+             Message: hii
+           </p>
+           <p>|</p>
+           <p class="time">
+             5h
+           </p>
+        </div>
+    </div>
+</div>
+
+<div class="contact" id="contact0">
+  <img src="profile4.jpg" alt="" class="contactImg">
+    <div class="content">
+        <h6 class="username">Sarley</h6>
+        <div class="msg">
+           <p class="message">
+             Message: nigga
+           </p>
+           <p>|</p>
+           <p class="time">
+             5h
+           </p>
+        </div>
+    </div>
+</div>
+
+<div class="contact" id="contact0">
+  <img src="profile5.jpg" alt="" class="contactImg">
+    <div class="content">
+        <h6 class="username">Brex</h6>
+        <div class="msg">
+           <p class="message">
+             Message: Heyy
+           </p>
+           <p>|</p>
+           <p class="time">
+             6h
+           </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<footer>
+    <p>I'm CEO bitch -Allan</p>
+</footer>
+
+</div>
+
+
+<!--chatPanel here dili e buwag arun mas compact-->
+
+<div class="chatPanel">
+
+<header id="chatPanelHeader">
+  
+        <img src="" alt="" id="chatProfile">
+        <h4 id="chatName">User</h4>
+    
+</header>
+
+<main class="chatBody">
+
+</main>
+
+
+</div>
+    <script src="chatPanel.js"></script>
+    <script src="loading.js">
+    </script>
+    <script src="profile.js"></script>
+    <script src="search.js"></script>
 </body>
 </html>
